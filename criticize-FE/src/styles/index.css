@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing-section {
+    min-height: 80vh;
+    margin-top: 2vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing-section h1 {
+   font-size: 35px;
+   text-align: center;
+   color: #665df5;
+}
+
+.landing-section h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #505050;
+}
+
+.step {
+    text-align: center; 
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.responsive-icon-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.btn-landing-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.try-now-btn {
+    width: 60%;
+    background-color: #fff;
+    color: #665df5;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 2px solid #665df5;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.try-now-btn:hover {
+    background-color: #665df5;
+    color: #fff;
+}
+
+.index-header {
+    /* color: #4438f5; */
+    color: #665df5;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.index-container {
+    margin-left: 20px;
+    width: 90%;
+}
+
+.index-content {
+    font-size: 16px;
+    color: #505050;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+.responsive-img {
+    /* margin-top: 20px; */
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 468px) {
+
+    .landing-section {
+        margin-top: 5vh;
+    }
+    
+    .landing-section h1 {
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .steps-container {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 6vh;
+    }
+    
+    .btn-landing-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 8vh;
+    }
+    
+    .try-now-btn {
+        width: 20%;
+    }
+
+    .form-section {
+        min-height: 84vh;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+    
+    .index-container {
+        margin-left: 80px;
+        width: 50%;
+    }
+
+    .index-header {
+        font-size: 24px;
+    }
+    
+    .index-content {
+        font-size: 16px;
+    }
+
+    .outer-container {
+        display: flex;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .landing-section h1 {
+        font-size: 90px;
+    }
+
+    .landing-section h3 {
+        font-size: 25px;
+    }
+
+}
